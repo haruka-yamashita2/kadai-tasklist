@@ -9,8 +9,8 @@
             <th>id</th>
             <td>{{ $task->id }}</td>
         </tr>
-            <th>タイトル</th>
-            <td>{{ $task->title }}</td>
+            <th>タスク</th>
+            <td>{{ $task->status }}</td>
         </tr>
         <tr>
             <th>メッセージ</th>

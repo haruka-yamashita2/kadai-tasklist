@@ -5,10 +5,10 @@
 <h1>タスク新規作成ページ</h1>
 
 <div class="row">
-        <div class="col-xs-12">col-xs-12</div>
-        <div class="col-sm-offset-2 col-sm-8">col-sm-8</div>
-        <div class="col-md-offset-2 col-md-8">col-md-8</div>
-        <div class="col-lg-offset-3 col-lg-6">col-lg-8</div>
+        <div class="col-xs-12">
+        <div class="col-sm-offset-2 col-sm-8">
+        <div class="col-md-offset-2 col-md-8">
+        <div class="col-lg-offset-3 col-lg-6">
             {!! Form::model($task, ['route' => 'tasks.store']) !!}
     
                 <div class="form-group">

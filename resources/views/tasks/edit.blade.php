@@ -6,7 +6,7 @@
     
 <div class="row">
         <div class="col-xs-12 col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6">
-        </div>
+
         {!! Form::model($task, ['route' => ['tasks.update', $task->id], 'method' => 'put']) !!}
             <div class="form-group">
                 {!! Form::label('status', 'ステータス:') !!}
